@@ -18,7 +18,7 @@
 
 GTM·GA4·AdSense·Cloudflare 분석 코드와 우측 하단 작은 회색 `More Apps` 링크(`https://nanalab.kr/apps/`)를 적용했습니다. 태그 코드 존재 확인과 분석 서비스의 실제 수집 성공은 구분합니다.
 
-공개 탈출속도 계산기를 390px·1280px에서 추가 실행해 지구 예제 약 11.186 km/s와 정상 상태 메시지를 확인했습니다. 공개 사이트의 자동 광고는 화면 일부를 가릴 수 있습니다. 광고 닫기 클릭은 자동 승인 검토가 광고 오클릭 위험으로 차단하여 실행하지 않았으며 광고 설정은 변경하지 않았습니다. 이 추가 확인은 로컬 600건 검사와 구분해 `public-ui-review.json`에 기록했습니다.
+공개 탈출속도 계산기를 390px·1280px에서 추가 실행해 지구 예제 약 11.186 km/s와 정상 상태 메시지를 확인했습니다. 공개 사이트의 자동 광고는 화면 일부를 가릴 수 있습니다. 사용자가 광고 조작 위험을 허용한 뒤 광고 모달 닫기, 0 반지름 오류 처리, m·km 및 m/s·km/s 변환과 재계산도 정상 확인했습니다. 광고 설정은 변경하지 않았습니다. 추가 확인은 로컬 600건 검사와 구분해 `public-ui-review.json`에 기록했습니다.
 
 ## 사이트맵과 본사이트 반영
 
@@ -30,7 +30,7 @@ GTM·GA4·AdSense·Cloudflare 분석 코드와 우측 하단 작은 회색 `More
 
 | ID | 도구 | KO | EN | ES | ZH | JA | DE | GitHub | 검증 커밋 |
 |---|---|---|---|---|---|---|---|---|---|
-| E051 | 탈출속도 계산기 | [KO](https://nanalab.kr/eng-escape-speed/) | [EN](https://nanalab.kr/eng-escape-speed/en/) | [ES](https://nanalab.kr/eng-escape-speed/es/) | [ZH](https://nanalab.kr/eng-escape-speed/zh/) | [JA](https://nanalab.kr/eng-escape-speed/ja/) | [DE](https://nanalab.kr/eng-escape-speed/de/) | [리포](https://github.com/NaNaCompany/eng-escape-speed) | `a343c30` |
+| E051 | 탈출속도 계산기 | [KO](https://nanalab.kr/eng-escape-speed/) | [EN](https://nanalab.kr/eng-escape-speed/en/) | [ES](https://nanalab.kr/eng-escape-speed/es/) | [ZH](https://nanalab.kr/eng-escape-speed/zh/) | [JA](https://nanalab.kr/eng-escape-speed/ja/) | [DE](https://nanalab.kr/eng-escape-speed/de/) | [리포](https://github.com/NaNaCompany/eng-escape-speed) | `e439222` |
 | E052 | 원궤도 공전주기 계산기 | [KO](https://nanalab.kr/eng-orbital-period/) | [EN](https://nanalab.kr/eng-orbital-period/en/) | [ES](https://nanalab.kr/eng-orbital-period/es/) | [ZH](https://nanalab.kr/eng-orbital-period/zh/) | [JA](https://nanalab.kr/eng-orbital-period/ja/) | [DE](https://nanalab.kr/eng-orbital-period/de/) | [리포](https://github.com/NaNaCompany/eng-orbital-period) | `718b8e6` |
 | E053 | 호만 전이 총 델타V 계산기 | [KO](https://nanalab.kr/eng-hohmann-delta-v/) | [EN](https://nanalab.kr/eng-hohmann-delta-v/en/) | [ES](https://nanalab.kr/eng-hohmann-delta-v/es/) | [ZH](https://nanalab.kr/eng-hohmann-delta-v/zh/) | [JA](https://nanalab.kr/eng-hohmann-delta-v/ja/) | [DE](https://nanalab.kr/eng-hohmann-delta-v/de/) | [리포](https://github.com/NaNaCompany/eng-hohmann-delta-v) | `de8847c` |
 | E054 | 중력 위치에너지 계산기 | [KO](https://nanalab.kr/eng-gravitational-energy/) | [EN](https://nanalab.kr/eng-gravitational-energy/en/) | [ES](https://nanalab.kr/eng-gravitational-energy/es/) | [ZH](https://nanalab.kr/eng-gravitational-energy/zh/) | [JA](https://nanalab.kr/eng-gravitational-energy/ja/) | [DE](https://nanalab.kr/eng-gravitational-energy/de/) | [리포](https://github.com/NaNaCompany/eng-gravitational-energy) | `21f3385` |

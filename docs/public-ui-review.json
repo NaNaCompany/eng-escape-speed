@@ -23,6 +23,21 @@
     "Publisher auto ads can overlay parts of the viewport. Core calculation and responsive layout remained functional.",
     "An attempted ad-dismissal click was rejected by automatic approval review because of accidental advertising-click risk. No ad was clicked or dismissed; verification continued read-only."
   ],
+  "followup": {
+    "user_authorized_ad_dismissal": true,
+    "ad_modal_dismissed": true,
+    "calculation_state_preserved": true,
+    "zero_radius_rejected": true,
+    "radius_m_and_km_conversion": "6371000 m and 6371 km preserve the same result",
+    "output_m_per_s": "11,186.1652",
+    "runtime_script_counts": {
+      "GTM": 1,
+      "GA4": 2,
+      "AdSense": 1,
+      "Cloudflare": 1
+    },
+    "runtime_note": "Two GA4 script nodes have the same measurement ID, with cx/gtm parameters on one. Script count alone does not establish duplicate event collection. No tag was removed."
+  },
   "scope": "One live calculator at two widths, supplemental to 600 local browser cases and whole-release public file/CI/Pages verification. Advertising measurement and ad-network configuration were not audited.",
   "screenshot_record": "Local QA artifacts retain the screenshots. Third-party advertising images are not redistributed in this repository."
 }
