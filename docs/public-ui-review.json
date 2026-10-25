@@ -1,0 +1,28 @@
+{
+  "url": "https://nanalab.kr/eng-escape-speed/",
+  "tested_viewports": [
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "calculation": {
+    "mass_kg": 5.9722e+24,
+    "center_radius_km": 6371,
+    "displayed_km_per_s": "11.1861652",
+    "status": "계산 완료 · 탈출속도 v_esc",
+    "pass": true
+  },
+  "desktop_horizontal_overflow": false,
+  "more_apps_url": "https://nanalab.kr/apps/",
+  "observations": [
+    "Publisher auto ads can overlay parts of the viewport. Core calculation and responsive layout remained functional.",
+    "An attempted ad-dismissal click was rejected by automatic approval review because of accidental advertising-click risk. No ad was clicked or dismissed; verification continued read-only."
+  ],
+  "scope": "One live calculator at two widths, supplemental to 600 local browser cases and whole-release public file/CI/Pages verification. Advertising measurement and ad-network configuration were not audited.",
+  "screenshot_record": "Local QA artifacts retain the screenshots. Third-party advertising images are not redistributed in this repository."
+}

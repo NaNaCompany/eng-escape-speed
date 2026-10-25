@@ -1,0 +1,2465 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-10-25T05:18:10.821588+00:00",
+  "scope": "E051-E100 factual primary-reference and external-material audit; runtime/numerical tests are separate.",
+  "final_verified": true,
+  "fatal_issues": [],
+  "app_count": 50,
+  "original_unique_url_count": 46,
+  "proposal_count": 18,
+  "new_unique_url_count": 18,
+  "http_only_exceptions": [
+    "https://goldbook.iupac.org/terms/view/P04524",
+    "https://goldbook.iupac.org/terms/view/09024"
+  ],
+  "reuse_policy": "No outside copyrighted expression is included or relicensed. All external references are citation-only. reuse_allowed=false denotes that the audit grants no right to copy source expression; source_reference_only and factual_model_verified describe the app scope.",
+  "records": [
+    {
+      "id": "E051",
+      "slug": "eng-escape-speed",
+      "title": "Escape Speed Calculator",
+      "formula": "v_esc = √(2GM/r)",
+      "factual_model_verified": true,
+      "topic_review": "Escape threshold follows zero total Newtonian energy; r is center distance, isolated spherical field, test mass.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 13 3 gravitational potential energy and total energy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+          "page_title": "13.3 Gravitational Potential Energy and Total Energy - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 13 3 gravitational potential energy and total energy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E052",
+      "slug": "eng-orbital-period",
+      "title": "Circular Orbit Period Calculator",
+      "formula": "T = 2π √(r³/(GM))",
+      "factual_model_verified": true,
+      "topic_review": "Circular gravity supplies centripetal acceleration, giving T=2pi sqrt(r^3/(GM)); satellite mass negligible.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 13 4 satellite orbits and energy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-4-satellite-orbits-and-energy",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/13-4-satellite-orbits-and-energy",
+          "page_title": "13.4 Satellite Orbits and Energy - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 13 4 satellite orbits and energy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-4-satellite-orbits-and-energy"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E053",
+      "slug": "eng-hohmann-delta-v",
+      "title": "Hohmann Transfer Total Delta V Calculator",
+      "formula": "Δv = |√(μ/r₁)(√(2r₂/(r₁+r₂))−1)| + |√(μ/r₂)(1−√(2r₁/(r₁+r₂)))|",
+      "factual_model_verified": true,
+      "topic_review": "Two coplanar circular orbits, tangent transfer ellipse, instantaneous burns; both impulse magnitudes are added.",
+      "recommended_sources": [
+        {
+          "label": "ESA GODOT · Hohmann transfer delta V",
+          "url": "https://godot.io.esa.int/docs/api_reference/generated/generated/generated/godot.core.astro.hohmannTransferDeltaV.html",
+          "http_status": 200,
+          "final_url": "https://godot.io.esa.int/docs/api_reference/generated/generated/generated/godot.core.astro.hohmannTransferDeltaV.html",
+          "page_title": "godot.core.astro.hohmannTransferDeltaV — GODOT 1.20.0 documentation",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "godot.io.esa.int"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "ESA GODOT · Hohmann transfer delta v",
+          "url": "https://godot.io.esa.int/docs/api_reference/generated/generated/godot.core.astro.hohmannTransferDeltaV.html"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Original ESA URL and old godotpy version return HTTP 404; current official API documentation has three generated path components.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E054",
+      "slug": "eng-gravitational-energy",
+      "title": "Gravitational Potential Energy Calculator",
+      "formula": "U = −GMm/r",
+      "factual_model_verified": true,
+      "topic_review": "Newtonian potential is zero at infinity and negative for finite radius: U=-GMm/r.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 13 3 gravitational potential energy and total energy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+          "page_title": "13.3 Gravitational Potential Energy and Total Energy - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 13 3 gravitational potential energy and total energy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E055",
+      "slug": "eng-gravity-at-radius",
+      "title": "Gravity at Radius Calculator",
+      "formula": "g = GM/r²",
+      "factual_model_verified": true,
+      "topic_review": "Exterior inverse-square acceleration magnitude is GM/r^2; not a uniform Earth-surface-only rule.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 13 2 gravitation near earths surface",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-2-gravitation-near-earths-surface",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/13-2-gravitation-near-earths-surface",
+          "page_title": "13.2 Gravitation Near Earth's Surface - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 13 2 gravitation near earths surface",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-2-gravitation-near-earths-surface"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E056",
+      "slug": "eng-schwarzschild-radius",
+      "title": "Schwarzschild Radius Calculator",
+      "formula": "r_s = 2GM/c²",
+      "factual_model_verified": true,
+      "topic_review": "Schwarzschild coordinate radius is 2GM/c^2 for a nonrotating uncharged body.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 13 7 einsteins theory of gravity",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-7-einsteins-theory-of-gravity",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/13-7-einsteins-theory-of-gravity",
+          "page_title": "13.7 Einstein's Theory of Gravity - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 13 7 einsteins theory of gravity",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/13-7-einsteins-theory-of-gravity"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E057",
+      "slug": "eng-lorentz-factor",
+      "title": "Lorentz Factor Calculator",
+      "formula": "γ = 1/√(1−v²/c²)",
+      "factual_model_verified": true,
+      "topic_review": "Lorentz factor is reciprocal sqrt(1-beta^2), with finite subluminal speed.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 5 3 time dilation",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation",
+          "page_title": "5.3 Time Dilation - University Physics Volume 3 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 5 3 time dilation",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E058",
+      "slug": "eng-relativistic-energy",
+      "title": "Relativistic Kinetic Energy Calculator",
+      "formula": "K = (γ−1)mc²",
+      "factual_model_verified": true,
+      "topic_review": "Relativistic kinetic energy uses rest mass and (gamma-1)mc^2; stable rationalization is algebraically equivalent.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 5 9 relativistic energy",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/5-9-relativistic-energy",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-3/pages/5-9-relativistic-energy",
+          "page_title": "5.9 Relativistic Energy - University Physics Volume 3 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 5 9 relativistic energy",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/5-9-relativistic-energy"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E059",
+      "slug": "eng-de-broglie",
+      "title": "De Broglie Wavelength Calculator",
+      "formula": "λ = h/p",
+      "factual_model_verified": true,
+      "topic_review": "Matter wavelength is h divided by momentum magnitude; momentum is supplied, not inferred classically.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 6 5 de broglies matter waves",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/6-5-de-broglies-matter-waves",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-3/pages/6-5-de-broglies-matter-waves",
+          "page_title": "6.5 De Broglie’s Matter Waves - University Physics Volume 3 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 6 5 de broglies matter waves",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/6-5-de-broglies-matter-waves"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E060",
+      "slug": "eng-gas-rms-speed",
+      "title": "Gas Molecular RMS Speed Calculator",
+      "formula": "v_rms = √(3RT/M)",
+      "factual_model_verified": true,
+      "topic_review": "Ideal-gas RMS molecular speed is sqrt(3RT/M), with molar mass in kg/mol.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 2 2 pressure temperature and rms speed",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/2-2-pressure-temperature-and-rms-speed",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-2/pages/2-2-pressure-temperature-and-rms-speed",
+          "page_title": "2.2 Pressure, Temperature, and RMS Speed - University Physics Volume 2 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 2 2 pressure temperature and rms speed",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/2-2-pressure-temperature-and-rms-speed"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E061",
+      "slug": "eng-free-fall-time",
+      "title": "Free Fall Time Calculator",
+      "formula": "t = √(2h/g)",
+      "factual_model_verified": true,
+      "topic_review": "Zero initial vertical speed and constant positive g yield t=sqrt(2h/g).",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 3 5 free fall",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall",
+          "page_title": "3.5 Free Fall - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 3 5 free fall",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E062",
+      "slug": "eng-projectile-range",
+      "title": "Projectile Range Calculator",
+      "formula": "R = v₀² sin(2θ)/g",
+      "factual_model_verified": true,
+      "topic_review": "Same launch and landing height, uniform g and no drag yield R=v^2 sin(2theta)/g.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 4 3 projectile motion",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/4-3-projectile-motion",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/4-3-projectile-motion",
+          "page_title": "4.3 Projectile Motion - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 4 3 projectile motion",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/4-3-projectile-motion"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E063",
+      "slug": "eng-impulse",
+      "title": "Average Force Impulse Calculator",
+      "formula": "J = F_avg Δt",
+      "factual_model_verified": true,
+      "topic_review": "Impulse is mean force times interval along the chosen signed axis.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 9 2 impulse and collisions",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/9-2-impulse-and-collisions",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/9-2-impulse-and-collisions",
+          "page_title": "9.2 Impulse and Collisions - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 9 2 impulse and collisions",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/9-2-impulse-and-collisions"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E064",
+      "slug": "eng-series-spring",
+      "title": "Series Spring Stiffness Calculator",
+      "formula": "k_eq = k₁k₂/(k₁+k₂)",
+      "factual_model_verified": true,
+      "topic_review": "Series extensions add under common force; reciprocal stiffnesses add, giving k1*k2/(k1+k2).",
+      "recommended_sources": [
+        {
+          "label": "Idaho State University · Springs in Series and Parallel",
+          "url": "https://www.isu.edu/physics/outreach/physics-class-demos/mechanics/springs-in-series-and-parallel/",
+          "http_status": 200,
+          "final_url": "https://www.isu.edu/physics/outreach/physics-class-demos/mechanics/springs-in-series-and-parallel/",
+          "page_title": "Springs in Series and Parallel | Idaho State University",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "www.isu.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 12 3 stress strain and elastic modulus",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/12-3-stress-strain-and-elastic-modulus"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Original elastic-modulus chapter does not directly establish the series-spring relation; official university demo gives the reciprocal relation.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E065",
+      "slug": "eng-center-of-mass",
+      "title": "Two Mass Center of Mass Calculator",
+      "formula": "x_cm = (m₁x₁+m₂x₂)/(m₁+m₂)",
+      "factual_model_verified": true,
+      "topic_review": "Two-mass one-axis center is the mass-weighted coordinate average; arbitrary coordinate origin allowed.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 9 6 center of mass",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/9-6-center-of-mass",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/9-6-center-of-mass",
+          "page_title": "9.6 Center of Mass - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 9 6 center of mass",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/9-6-center-of-mass"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E066",
+      "slug": "eng-friction-stop-distance",
+      "title": "Friction Stopping Distance Calculator",
+      "formula": "d = v₀²/(2μ_k g)",
+      "factual_model_verified": true,
+      "topic_review": "Kinetic energy dissipated by constant kinetic friction on a level surface gives v^2/(2mu*g).",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 8 3 conservation of energy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/8-3-conservation-of-energy",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/8-3-conservation-of-energy",
+          "page_title": "8.3 Conservation of Energy - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 8 3 conservation of energy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/8-3-conservation-of-energy"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E067",
+      "slug": "eng-critical-incline",
+      "title": "Critical Sliding Incline Angle Calculator",
+      "formula": "θ = atan(μ_s)",
+      "factual_model_verified": true,
+      "topic_review": "At impending downhill motion on an unforced incline, tan(theta)=mu_s.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 6 2 friction",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+          "page_title": "6.2 Friction - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 6 2 friction",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E068",
+      "slug": "eng-spring-energy",
+      "title": "Spring Potential Energy Calculator",
+      "formula": "U = ½kx²",
+      "factual_model_verified": true,
+      "topic_review": "Ideal Hookean spring energy is k*x^2/2 relative to its unstretched state.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 8 1 potential energy of a system",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/8-1-potential-energy-of-a-system",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/8-1-potential-energy-of-a-system",
+          "page_title": "8.1 Potential Energy of a System - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 8 1 potential energy of a system",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/8-1-potential-energy-of-a-system"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E069",
+      "slug": "eng-tube-area-inertia",
+      "title": "Circular Tube Area Moment Calculator",
+      "formula": "I = π(D⁴−d⁴)/64",
+      "factual_model_verified": true,
+      "topic_review": "Centroidal planar annulus moment is pi(ro^4-ri^4)/4; diameter substitution yields pi(D^4-d^4)/64, distinct from polar J.",
+      "recommended_sources": [
+        {
+          "label": "Penn State · Mechanics Map · 2D Area Moments of Inertia",
+          "url": "https://mechanicsmap.psu.edu/websites/centroidtables/centroids2D/centroids2D.html",
+          "http_status": 200,
+          "final_url": "https://mechanicsmap.psu.edu/websites/centroidtables/centroids2D/centroids2D.html",
+          "page_title": "Mechanics Map - 2D Centroid and Moment of Inertia Table",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "mechanicsmap.psu.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "MIT OCW · Bending and area moments",
+          "url": "https://ocw.mit.edu/courses/16-20-structural-mechanics-fall-2002/"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Original course home is indirect; the official Penn State Mechanics Map explicitly gives annulus planar I and polar J. Converting radius to diameter gives pi(D^4-d^4)/64.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E070",
+      "slug": "eng-cantilever-deflection",
+      "title": "Cantilever Tip Deflection Calculator",
+      "formula": "δ = FL³/(3EI)",
+      "factual_model_verified": true,
+      "topic_review": "Small-deflection Euler-Bernoulli integration for an end force and perfect clamp gives tip magnitude F*L^3/(3EI).",
+      "recommended_sources": [
+        {
+          "label": "MIT OCW · Carol Livermore · Beam Deflection",
+          "url": "https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/1340543ced026dab5c8444a53fe92153_lec20.pdf",
+          "http_status": 200,
+          "final_url": "https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/1340543ced026dab5c8444a53fe92153_lec20.pdf",
+          "page_title": null,
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0; individual third-party exceptions may apply",
+          "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+          "primary_organization": "ocw.mit.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "MIT OCW · Beam deflections",
+          "url": "https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Replace course homepage with directly verified beam-deflection notes, printed page 7 / PDF page 7.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E071",
+      "slug": "eng-rayleigh-number",
+      "title": "Rayleigh Number Calculator",
+      "formula": "Ra = gβΔT L³/(να)",
+      "factual_model_verified": true,
+      "topic_review": "Rayleigh definition is g*beta*deltaT*L^3/(nu*alpha); beta is volumetric expansion coefficient and nu kinematic viscosity.",
+      "recommended_sources": [
+        {
+          "label": "University of Illinois · Nenad Miljkovic · ME420 notes",
+          "url": "https://etrl.mechanical.illinois.edu/pdf/ME420/ME420%20Complete%20Lecture%20Notes.pdf",
+          "http_status": 200,
+          "final_url": "https://etrl.mechanical.illinois.edu/pdf/ME420/ME420%20Complete%20Lecture%20Notes.pdf",
+          "page_title": null,
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "etrl.mechanical.illinois.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "MIT OCW · Natural convection",
+          "url": "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Course home has no direct model evidence; Illinois ME420 notes explicitly define Ra = g beta deltaT x^3/(alpha nu), printed page 133.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E072",
+      "slug": "eng-prandtl-number",
+      "title": "Prandtl Number Calculator",
+      "formula": "Pr = μc_p/k",
+      "factual_model_verified": true,
+      "topic_review": "Prandtl number is mu*cp/k=nu/alpha, using dynamic viscosity mu and fluid thermal conductivity.",
+      "recommended_sources": [
+        {
+          "label": "MIT OCW · Engineering Heat Transfer · HT-22",
+          "url": "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf",
+          "http_status": 200,
+          "final_url": "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf",
+          "page_title": null,
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0; individual third-party exceptions may apply",
+          "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+          "primary_organization": "ocw.mit.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "MIT OCW · Heat transfer dimensionless groups",
+          "url": "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "MIT heat-transfer notes HT-22 explicitly state Pr = mu cp/k and distinguish kinematic viscosity and thermal diffusivity.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E073",
+      "slug": "eng-nusselt-number",
+      "title": "Nusselt Number Calculator",
+      "formula": "Nu = hL/k_f",
+      "factual_model_verified": true,
+      "topic_review": "Nusselt definition uses h*L/k_fluid; it does not itself infer h or a flow regime.",
+      "recommended_sources": [
+        {
+          "label": "University of Delaware · S. G. Advani · Heat Transfer Review",
+          "url": "https://research.me.udel.edu/advani/teaching/s98_me302_review.htm",
+          "http_status": 200,
+          "final_url": "https://research.me.udel.edu/advani/teaching/s98_me302_review.htm",
+          "page_title": "HEAT TRANSFER REVIEW QUESTIONS",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "research.me.udel.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "MIT OCW · Heat transfer dimensionless groups",
+          "url": "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Direct official instructor notes establish Nu = hL/k and clarify that k is the fluid conductivity, unlike Biot number.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E074",
+      "slug": "eng-thermal-diffusivity",
+      "title": "Thermal Diffusivity Calculator",
+      "formula": "α = k/(ρc_p)",
+      "factual_model_verified": true,
+      "topic_review": "Thermal diffusivity is conductivity divided by volumetric heat capacity: k/(rho*cp).",
+      "recommended_sources": [
+        {
+          "label": "MIT OCW · 3.185 · Thermal Diffusion Equation",
+          "url": "https://ocw.mit.edu/courses/3-185-transport-phenomena-in-materials-engineering-fall-2003/927ddb6b3dfc423de5570a0070614129_handout_htrans.pdf",
+          "http_status": 200,
+          "final_url": "https://ocw.mit.edu/courses/3-185-transport-phenomena-in-materials-engineering-fall-2003/927ddb6b3dfc423de5570a0070614129_handout_htrans.pdf",
+          "page_title": null,
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0; individual third-party exceptions may apply",
+          "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+          "primary_organization": "ocw.mit.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "MIT OCW · Transient conduction",
+          "url": "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Direct MIT thermal-diffusion handout defines alpha = k/(rho cp), unlike the original course home.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E075",
+      "slug": "eng-sensible-heat",
+      "title": "Sensible Heat Calculator",
+      "formula": "Q = mc_pΔT",
+      "factual_model_verified": true,
+      "topic_review": "Sensible heat at constant pressure with approximately constant cp is m*cp*deltaT; cooling has negative sign.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 1 4 heat transfer specific heat and calorimetry",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/1-4-heat-transfer-specific-heat-and-calorimetry",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-2/pages/1-4-heat-transfer-specific-heat-and-calorimetry",
+          "page_title": "1.4 Heat Transfer, Specific Heat, and Calorimetry - University Physics Volume 2 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 1 4 heat transfer specific heat and calorimetry",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/1-4-heat-transfer-specific-heat-and-calorimetry"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E076",
+      "slug": "eng-isothermal-work",
+      "title": "Ideal Gas Isothermal Work Calculator",
+      "formula": "W = nRT ln(V₂/V₁)",
+      "factual_model_verified": true,
+      "topic_review": "Reversible/quasistatic ideal-gas isothermal boundary work by the gas is nRT ln(V2/V1).",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 3 3 first law of thermodynamics",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics",
+          "page_title": "3.3 First Law of Thermodynamics - University Physics Volume 2 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 3 3 first law of thermodynamics",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E077",
+      "slug": "eng-adiabatic-temperature",
+      "title": "Adiabatic Ideal Gas Temperature Calculator",
+      "formula": "T₂ = T₁(p₂/p₁)^((γ−1)/γ)",
+      "factual_model_verified": true,
+      "topic_review": "Reversible ideal-gas adiabatic/isentrope relation gives T2/T1=(p2/p1)^((gamma-1)/gamma).",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 3 6 adiabatic processes for an ideal gas",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas",
+          "page_title": "3.6 Adiabatic Processes for an Ideal Gas - University Physics Volume 2 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 3 6 adiabatic processes for an ideal gas",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E078",
+      "slug": "eng-log-mean-temperature",
+      "title": "Log Mean Temperature Difference Calculator",
+      "formula": "ΔT_lm = (ΔT₁−ΔT₂)/ln(ΔT₁/ΔT₂)",
+      "factual_model_verified": true,
+      "topic_review": "Positive endpoint temperature differences define the logarithmic mean; equal values use its continuous limit.",
+      "recommended_sources": [
+        {
+          "label": "MIT OCW · Log mean temperature difference",
+          "url": "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf",
+          "http_status": 200,
+          "final_url": "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf",
+          "page_title": null,
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0; individual third-party exceptions may apply",
+          "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+          "primary_organization": "ocw.mit.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "MIT OCW · Log mean temperature difference",
+          "url": "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E079",
+      "slug": "eng-buoyant-force",
+      "title": "Displaced Fluid Buoyancy Calculator",
+      "formula": "F_B = ρgV_disp",
+      "factual_model_verified": true,
+      "topic_review": "Archimedean buoyant force magnitude equals displaced fluid weight rho*g*V.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 14 4 archimedes principle and buoyancy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+          "page_title": "14.4 Archimedes’ Principle and Buoyancy - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 14 4 archimedes principle and buoyancy",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E080",
+      "slug": "eng-capillary-rise",
+      "title": "Capillary Rise Calculator",
+      "formula": "h = 2σ cosθ/(ρgr)",
+      "factual_model_verified": true,
+      "topic_review": "Equilibrium round-tube rise is 2*sigma*cos(contact_angle)/(rho*g*r); obtuse angle produces depression.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 11.8 · Surface Tension and Capillary Action",
+          "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+          "page_title": "11.8 Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action - College Physics 2e | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · Capillary action",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-2-properties-of-liquids"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Chemistry chapter discusses capillary action qualitatively. College Physics equation 11.51 directly gives the implemented contact-angle formula.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E081",
+      "slug": "eng-point-charge-field",
+      "title": "Point Charge Electric Field Calculator",
+      "formula": "E = |q|/(4πε₀r²)",
+      "factual_model_verified": true,
+      "topic_review": "Vacuum point-charge electric-field magnitude is abs(q)/(4*pi*epsilon0*r^2).",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 5 4 electric field",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/5-4-electric-field",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-2/pages/5-4-electric-field",
+          "page_title": "5.4 Electric Field - University Physics Volume 2 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 5 4 electric field",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/5-4-electric-field"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E082",
+      "slug": "eng-ideal-transformer",
+      "title": "Ideal Transformer Voltage Calculator",
+      "formula": "V₂ = V₁N₂/N₁",
+      "factual_model_verified": true,
+      "topic_review": "Ideal transformer voltage ratio equals turns ratio; paired RMS values assumed.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 15 6 transformers",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers",
+          "page_title": "15.6 Transformers - University Physics Volume 2 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 15 6 transformers",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E083",
+      "slug": "eng-rlc-impedance",
+      "title": "Series RLC Impedance Calculator",
+      "formula": "|Z| = √(R²+(2πfL−1/(2πfC))²)",
+      "factual_model_verified": true,
+      "topic_review": "Series RLC magnitude is sqrt(R^2+(omega*L-1/(omega*C))^2) for sinusoidal steady state.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 15 3 rlc series circuits with ac",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-3-rlc-series-circuits-with-ac",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-2/pages/15-3-rlc-series-circuits-with-ac",
+          "page_title": "15.3 RLC Series Circuits with AC - University Physics Volume 2 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 15 3 rlc series circuits with ac",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-3-rlc-series-circuits-with-ac"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E084",
+      "slug": "eng-ac-real-power",
+      "title": "AC Real Power Calculator",
+      "formula": "P = V_rms I_rms cosφ",
+      "factual_model_verified": true,
+      "topic_review": "Sinusoidal real power is Vrms*Irms*cos(phase), retaining the sign of active power.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 15 4 power in an ac circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit",
+          "page_title": "15.4 Power in an AC Circuit - University Physics Volume 2 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 15 4 power in an ac circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E085",
+      "slug": "eng-skin-depth",
+      "title": "Good Conductor Skin Depth Calculator",
+      "formula": "δ = √(1/(πf μ₀μ_r σ))",
+      "factual_model_verified": true,
+      "topic_review": "Good-conductor field-amplitude skin depth is sqrt(1/(pi*f*mu*sigma)); linear permeability and displacement-current neglect are required.",
+      "recommended_sources": [
+        {
+          "label": "US EPA · Skin depth",
+          "url": "https://www.epa.gov/environmental-geophysics/electromagnetic-signal-attenuation-skin-depth",
+          "http_status": 200,
+          "final_url": "https://www.epa.gov/environmental-geophysics/electromagnetic-signal-attenuation-skin-depth",
+          "page_title": "Electromagnetic Signal Attenuation (Skin Depth) | US EPA",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "www.epa.gov"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "US EPA · Skin depth",
+          "url": "https://www.epa.gov/environmental-geophysics/electromagnetic-signal-attenuation-skin-depth"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E086",
+      "slug": "eng-noninverting-gain",
+      "title": "Noninverting Op Amp Gain Calculator",
+      "formula": "A_v = 1+R_f/R_g",
+      "factual_model_verified": true,
+      "topic_review": "Ideal negative-feedback noninverting voltage gain is 1+Rf/Rg; supply/bandwidth/current limits are excluded.",
+      "recommended_sources": [
+        {
+          "label": "Texas Instruments · Noninverting amplifier circuit",
+          "url": "https://www.ti.com/tool/CIRCUIT060022",
+          "http_status": 200,
+          "final_url": "https://www.ti.com/tool/CIRCUIT060022",
+          "page_title": "CIRCUIT060022 Design tool | TI.com",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "www.ti.com"
+        },
+        {
+          "label": "Texas Instruments · SBOA271A · Noninverting Amplifier",
+          "url": "https://www.ti.com/lit/an/sboa271a/sboa271a.pdf",
+          "http_status": 200,
+          "final_url": "https://www.ti.com/lit/an/sboa271a/sboa271a.pdf",
+          "page_title": null,
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "www.ti.com"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "Texas Instruments · Noninverting amplifier circuit",
+          "url": "https://www.ti.com/tool/CIRCUIT060022"
+        }
+      ],
+      "proposal_action": "append",
+      "proposal_reason": "Existing TI product page is relevant; application note page 2 directly gives 1 + Rf/Rg.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E087",
+      "slug": "eng-rc-lowpass-gain",
+      "title": "RC Low Pass Magnitude Calculator",
+      "formula": "|H| = 1/√(1+(2πfRC)²)",
+      "factual_model_verified": true,
+      "topic_review": "Unloaded passive RC low-pass transfer magnitude follows 1/(1+j*omega*RC), giving 1/sqrt(1+(omega*RC)^2).",
+      "recommended_sources": [
+        {
+          "label": "MIT OCW · Anant Agarwal and Jeffrey Lang · Lecture 18",
+          "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/d4e136975654a01f7fc2c9b49196d376_6002_l18.pdf",
+          "http_status": 200,
+          "final_url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/d4e136975654a01f7fc2c9b49196d376_6002_l18.pdf",
+          "page_title": null,
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0; individual third-party exceptions may apply",
+          "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+          "primary_organization": "ocw.mit.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "MIT OCW · First order filters",
+          "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Replace course homepage with official lecture 18 notes containing H = 1/(1+j omega RC).",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E088",
+      "slug": "eng-normal-reflectance",
+      "title": "Normal Incidence Fresnel Reflectance Calculator",
+      "formula": "R = ((n₁−n₂)/(n₁+n₂))²",
+      "factual_model_verified": true,
+      "topic_review": "For lossless nonmagnetic media at normal incidence, intensity reflectance is ((n1-n2)/(n1+n2))^2.",
+      "recommended_sources": [
+        {
+          "label": "MIT OCW · 6.007 · Fresnel Equations and Light Guiding",
+          "url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/4c2d4e2527151fd840c3a725bae3d13a_MIT6_007S11_lec34.pdf",
+          "http_status": 200,
+          "final_url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/4c2d4e2527151fd840c3a725bae3d13a_MIT6_007S11_lec34.pdf",
+          "page_title": null,
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0; individual third-party exceptions may apply",
+          "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+          "primary_organization": "ocw.mit.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "TU Delft · Fresnel reflection",
+          "url": "https://interactivetextbooks.tudelft.nl/tn2421/content/Chap1_Basics/Basics_2022_01Clean.html"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "TU Delft endpoint times out in both direct HTTP and web retrieval. Direct official MIT lecture covers Fresnel coefficients at normal incidence.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E089",
+      "slug": "eng-double-slit-spacing",
+      "title": "Double Slit Fringe Spacing Calculator",
+      "formula": "Δy ≈ λL/d",
+      "factual_model_verified": true,
+      "topic_review": "Far-field coherent two-slit small-angle fringe spacing is wavelength*distance/slit_spacing.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 3 2 mathematics of interference",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-2-mathematics-of-interference",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-3/pages/3-2-mathematics-of-interference",
+          "page_title": "3.2 Mathematics of Interference - University Physics Volume 3 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 3 2 mathematics of interference",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-2-mathematics-of-interference"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E090",
+      "slug": "eng-grating-angle",
+      "title": "Diffraction Grating Angle Calculator",
+      "formula": "θ = asin(mλ/d)",
+      "factual_model_verified": true,
+      "topic_review": "Grating maxima satisfy d*sin(theta)=m*lambda; order absent when m*lambda/d>1.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 4 4 diffraction gratings",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/4-4-diffraction-gratings",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-3/pages/4-4-diffraction-gratings",
+          "page_title": "4.4 Diffraction Gratings - University Physics Volume 3 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 4 4 diffraction gratings",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/4-4-diffraction-gratings"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E091",
+      "slug": "eng-sound-pressure-level",
+      "title": "Sound Pressure Level Calculator",
+      "formula": "L_p = 20 log₁₀(p_rms/p_ref)",
+      "factual_model_verified": true,
+      "topic_review": "Pressure level uses 20 log10(prms/pref); NIST gives sound reference pressure 20 microPa, not a universal intensity reference.",
+      "recommended_sources": [
+        {
+          "label": "NIST · Guide to the SI · Chapter 8.7",
+          "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-8",
+          "http_status": 200,
+          "final_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-8",
+          "page_title": "NIST Guide to the SI, Chapter 8 | NIST",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "NIST employee non-SRD/Technical Series terms; third-party works and SRD need separate review",
+          "license_url": "https://www.nist.gov/open/license",
+          "primary_organization": "www.nist.gov"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 17 3 sound intensity",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Existing chapter primarily gives intensity level, and explicitly defers pressure level. NIST SP811 chapter 8 directly supports 20 log pressure ratio and 20 microPa reference.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E092",
+      "slug": "eng-sound-doppler",
+      "title": "Acoustic Doppler Frequency Calculator",
+      "formula": "f_obs = f₀(c_s+v_o)/(c_s−v_s)",
+      "factual_model_verified": true,
+      "topic_review": "Classical medium-based Doppler frequency combines listener numerator and source denominator; approach signs and subsonic speeds specified.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 17 7 the doppler effect",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect",
+          "page_title": "17.7 The Doppler Effect - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 17 7 the doppler effect",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E093",
+      "slug": "eng-dilute-ph",
+      "title": "Ideal Dilute Solution pH Calculator",
+      "formula": "pH ≈ −log₁₀(c_H/(1 mol/L))",
+      "factual_model_verified": true,
+      "topic_review": "Exact pH uses hydrogen activity; app explicitly implements an ideal dilute concentration approximation normalized to 1 mol/L.",
+      "recommended_sources": [
+        {
+          "label": "IUPAC Gold Book · pH",
+          "url": "https://goldbook.iupac.org/terms/view/P04524",
+          "http_status": 403,
+          "final_url": "https://goldbook.iupac.org/terms/view/P04524",
+          "page_title": null,
+          "web_primary_verified": true,
+          "verification_note": "Official indexed definition checked: pH is minus base-10 log hydrogen-ion activity, not concentration without approximation.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-SA 4.0 for individual terms; collection licensing separate",
+          "license_url": "https://goldbook.iupac.org/terms/view/09024/plain",
+          "primary_organization": "goldbook.iupac.org"
+        },
+        {
+          "label": "OpenStax · Chemistry 2e · 14.2 pH and pOH",
+          "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+          "page_title": "14.2 pH and pOH - Chemistry 2e | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "IUPAC Gold Book · pH",
+          "url": "https://goldbook.iupac.org/terms/view/P04524"
+        }
+      ],
+      "proposal_action": "append",
+      "proposal_reason": "IUPAC definition verified through indexed official content, but direct HTTP is 403. Supplemental primary page explains the concentration approximation for dilute solutions.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E094",
+      "slug": "eng-nernst-potential",
+      "title": "Nernst Potential Calculator",
+      "formula": "E = E° − RT lnQ/(nF)",
+      "factual_model_verified": true,
+      "topic_review": "Nernst equation is E=E0-RT ln(Q)/(nF), with dimensionless reaction quotient and positive integer electron count.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · Nernst equation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium",
+          "page_title": "17.4 Potential, Free Energy, and Equilibrium - Chemistry 2e | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · Nernst equation",
+          "url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E095",
+      "slug": "eng-decay-activity",
+      "title": "Radioactive Activity Decay Calculator",
+      "formula": "A = A₀ exp(−λt)",
+      "factual_model_verified": true,
+      "topic_review": "Activity scales with undecayed population, giving A=A0*exp(-lambda*t); no half-life substitution assumed.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 10 3 radioactive decay",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay",
+          "page_title": "10.3 Radioactive Decay - University Physics Volume 3 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 10 3 radioactive decay",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E096",
+      "slug": "eng-henry-solubility",
+      "title": "Henry Law Dissolved Concentration Calculator",
+      "formula": "c = k_H p",
+      "factual_model_verified": true,
+      "topic_review": "IUPAC 09024 defines Henry solubility via c/p; c=kH*p and the mol/(L*bar) conversion factor 0.01 are consistent.",
+      "recommended_sources": [
+        {
+          "label": "IUPAC · Henry solubility via c and p",
+          "url": "https://goldbook.iupac.org/terms/view/09024",
+          "http_status": 403,
+          "final_url": "https://goldbook.iupac.org/terms/view/09024",
+          "page_title": null,
+          "web_primary_verified": true,
+          "verification_note": "Official indexed definition and plain endpoint checked: Henry solubility Hs^cp=c/p; SI and mol/(L bar) conventions verified.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-SA 4.0 for individual terms; collection licensing separate",
+          "license_url": "https://goldbook.iupac.org/terms/view/09024/plain",
+          "primary_organization": "goldbook.iupac.org"
+        },
+        {
+          "label": "NIST · Avoid Common Pitfalls when using Henry’s Law",
+          "url": "https://www.nist.gov/publications/avoid-common-pitfalls-when-using-henrys-law",
+          "http_status": 200,
+          "final_url": "https://www.nist.gov/publications/avoid-common-pitfalls-when-using-henrys-law",
+          "page_title": "Avoid Common Pitfalls when using Henry's Law | NIST",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "NIST employee non-SRD/Technical Series terms; third-party works and SRD need separate review",
+          "license_url": "https://www.nist.gov/open/license",
+          "primary_organization": "www.nist.gov"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "IUPAC · Henry solubility via c and p",
+          "url": "https://goldbook.iupac.org/terms/view/09024"
+        }
+      ],
+      "proposal_action": "append",
+      "proposal_reason": "IUPAC 09024 is exactly the c/p convention and its units are verified through official indexed content; direct HTTP is 403. Add accessible NIST discussion of Henry convention pitfalls.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E097",
+      "slug": "eng-stokes-terminal-speed",
+      "title": "Stokes Particle Terminal Velocity Calculator",
+      "formula": "v_t = (ρ_p−ρ_f)gd²/(18μ)",
+      "factual_model_verified": true,
+      "topic_review": "Balancing gravity, buoyancy and Stokes drag gives diameter form (rho_p-rho_f)*g*d^2/(18mu); sign is downward and computed Re<0.1 is a conservative app bound.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · College Physics 2e · 12.6 Viscous Fluid Motion",
+          "url": "https://openstax.org/books/college-physics-2e/pages/12-6-motion-of-an-object-in-a-viscous-fluid",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/college-physics-2e/pages/12-6-motion-of-an-object-in-a-viscous-fluid",
+          "page_title": "12.6 Motion of an Object in a Viscous Fluid - College Physics 2e | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "University of Virginia · Stokes flow",
+          "url": "https://galileo.phys.virginia.edu/classes/311/notes/fluids2/node7.html"
+        }
+      ],
+      "proposal_action": "replace",
+      "proposal_reason": "Virginia source has certificate failure and web timeout; official textbook directly supplies the buoyancy-corrected sphere terminal-speed relation and particle Reynolds definition.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E098",
+      "slug": "eng-orifice-flow",
+      "title": "Incompressible Orifice Flow Calculator",
+      "formula": "Q = C_d A √(2Δp/ρ)",
+      "factual_model_verified": true,
+      "topic_review": "Bernoulli gives sqrt(2*deltaP/rho); user discharge coefficient multiplies aperture area, with negligible upstream velocity and equal height.",
+      "recommended_sources": [
+        {
+          "label": "OpenStax · 14 6 bernoullis equation",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation",
+          "http_status": 200,
+          "final_url": "https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation",
+          "page_title": "14.6 Bernoulli’s Equation - University Physics Volume 1 | OpenStax",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0 (current web edition; not a commercial reuse grant)",
+          "license_url": "https://openstax.org/books/university-physics-volume-2/pages/preface",
+          "primary_organization": "openstax.org"
+        },
+        {
+          "label": "University of Texas at Austin · Richard Fitzpatrick · Flow Through an Orifice",
+          "url": "https://farside.ph.utexas.edu/teaching/336L/Fluid/node55.html",
+          "http_status": 200,
+          "final_url": "https://farside.ph.utexas.edu/teaching/336L/Fluid/node55.html",
+          "page_title": "Flow Through an Orifice",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "farside.ph.utexas.edu"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "OpenStax · 14 6 bernoullis equation",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation"
+        }
+      ],
+      "proposal_action": "append",
+      "proposal_reason": "Existing Bernoulli chapter is appropriate for ideal velocity. Add university treatment of orifice discharge and contraction coefficient. The app defines user Cd explicitly rather than claiming a standard metering correlation.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E099",
+      "slug": "eng-combined-length-uncertainty",
+      "title": "Independent Length Uncertainty Calculator",
+      "formula": "u_c = √((c₁u₁)²+(c₂u₂)²)",
+      "factual_model_verified": true,
+      "topic_review": "For linear independent inputs with zero covariance, combined standard uncertainty is sqrt((c1*u1)^2+(c2*u2)^2).",
+      "recommended_sources": [
+        {
+          "label": "NIST TN 1297 · Combined standard uncertainty",
+          "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-5-combined-standard-uncertainty",
+          "http_status": 200,
+          "final_url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-5-combined-standard-uncertainty",
+          "page_title": "NIST TN 1297: 5. Combined Standard Uncertainty | NIST",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "NIST employee non-SRD/Technical Series terms; third-party works and SRD need separate review",
+          "license_url": "https://www.nist.gov/open/license",
+          "primary_organization": "www.nist.gov"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "NIST TN 1297 · Combined standard uncertainty",
+          "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-5-combined-standard-uncertainty"
+        }
+      ],
+      "proposal_action": "keep",
+      "proposal_reason": "Official primary source is reachable and directly relevant.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    },
+    {
+      "id": "E100",
+      "slug": "eng-logarithmic-decrement",
+      "title": "Logarithmic Decrement Calculator",
+      "formula": "δ = ln(x₁/x₂)/n",
+      "factual_model_verified": true,
+      "topic_review": "Linear free-decay same-direction peaks n full cycles apart give mean decrement ln(x1/x2)/n; this is not damping ratio itself.",
+      "recommended_sources": [
+        {
+          "label": "Northwestern Keten Group · Free vibration and logarithmic decrement",
+          "url": "https://keten-group.github.io/StructuralDynamics/singledof.html",
+          "http_status": 200,
+          "final_url": "https://keten-group.github.io/StructuralDynamics/singledof.html",
+          "page_title": "Structural Dynamics - 2  Free Vibrations of Single Degree of Freedom Systems",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "CC BY-NC-SA 4.0",
+          "license_url": "https://keten-group.github.io/StructuralDynamics/",
+          "primary_organization": "keten-group.github.io"
+        },
+        {
+          "label": "NASA · M. J. Casiano · NASA/TM-2016-218227",
+          "url": "https://ntrs.nasa.gov/citations/20170005173",
+          "http_status": 200,
+          "final_url": "https://ntrs.nasa.gov/citations/20170005173",
+          "page_title": "Extracting Damping Ratio from Dynamic Data and Numerical Solutions - NASA Technical Reports Server (NTRS)",
+          "web_primary_verified": false,
+          "verification_note": "Direct official document/page retrieved; topic/model relevance reviewed.",
+          "source_reference_only": true,
+          "external_material_reused": false,
+          "reuse_allowed": false,
+          "license_name": "No general commercial content-reuse license verified; factual reference only",
+          "license_url": null,
+          "primary_organization": "ntrs.nasa.gov"
+        }
+      ],
+      "original_sources": [
+        {
+          "label": "Northwestern Keten Group · Free vibration and logarithmic decrement",
+          "url": "https://keten-group.github.io/StructuralDynamics/singledof.html"
+        }
+      ],
+      "proposal_action": "append",
+      "proposal_reason": "Existing Northwestern-authored textbook is appropriate. Add NASA-authored technical memorandum with a direct logarithmic-decrement method. No textbook content is redistributed.",
+      "source_reference_only": true,
+      "original_code_and_assets_scope": "Factory and app source inventory reviewed. Only factual formulas/constants and links used; no external textbook prose, figures, tables, software package, or font file imported."
+    }
+  ],
+  "http_audit": [
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+      "content_type": "text/html",
+      "title": "13.3 Gravitational Potential Energy and Total Energy - University Physics Volume 1 | OpenStax",
+      "body_chars": 19389,
+      "error": null,
+      "body_sha256": "ea14b8c05ebe2492f04655926f11a3a6ae5a32574ca27aaf6e4c9f7799a8a1e1"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/13-4-satellite-orbits-and-energy",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/13-4-satellite-orbits-and-energy",
+      "content_type": "text/html",
+      "title": "13.4 Satellite Orbits and Energy - University Physics Volume 1 | OpenStax",
+      "body_chars": 21784,
+      "error": null,
+      "body_sha256": "2a542a6948ed5bfb35d3ebb1076c1c78284ac7c17de6ae0c3e690a34ce641dc5"
+    },
+    {
+      "url": "https://godot.io.esa.int/docs/api_reference/generated/generated/godot.core.astro.hohmannTransferDeltaV.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "body_sha256": null
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/13-2-gravitation-near-earths-surface",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/13-2-gravitation-near-earths-surface",
+      "content_type": "text/html",
+      "title": "13.2 Gravitation Near Earth's Surface - University Physics Volume 1 | OpenStax",
+      "body_chars": 19149,
+      "error": null,
+      "body_sha256": "6f1e45193c333f21cb51741a5607092868167c37907421eb6c9ab33fbca027e7"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/13-7-einsteins-theory-of-gravity",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/13-7-einsteins-theory-of-gravity",
+      "content_type": "text/html",
+      "title": "13.7 Einstein's Theory of Gravity - University Physics Volume 1 | OpenStax",
+      "body_chars": 26092,
+      "error": null,
+      "body_sha256": "1363faae6402cb0bbed66d921b029c3fb50c617e85b1c654239f3cf9391c0121"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation",
+      "content_type": "text/html",
+      "title": "5.3 Time Dilation - University Physics Volume 3 | OpenStax",
+      "body_chars": 23440,
+      "error": null,
+      "body_sha256": "08a0608839ac8330b4cb0b9696b2d63403d7ccc9a3923484d2bfea77c4adafe6"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/5-9-relativistic-energy",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-3/pages/5-9-relativistic-energy",
+      "content_type": "text/html",
+      "title": "5.9 Relativistic Energy - University Physics Volume 3 | OpenStax",
+      "body_chars": 25578,
+      "error": null,
+      "body_sha256": "fc0b0e3e5f5ecd061dea8f99ef3e7f2a39030a31d1aba3eac9503611c139ceca"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/6-5-de-broglies-matter-waves",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-3/pages/6-5-de-broglies-matter-waves",
+      "content_type": "text/html",
+      "title": "6.5 De Broglie’s Matter Waves - University Physics Volume 3 | OpenStax",
+      "body_chars": 23342,
+      "error": null,
+      "body_sha256": "114d7538dafe0fa96108bae23ff780bb89e42823417d648401566b22eb931fc4"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/2-2-pressure-temperature-and-rms-speed",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-2/pages/2-2-pressure-temperature-and-rms-speed",
+      "content_type": "text/html",
+      "title": "2.2 Pressure, Temperature, and RMS Speed - University Physics Volume 2 | OpenStax",
+      "body_chars": 30185,
+      "error": null,
+      "body_sha256": "e9a979af09aa55737e1c415c9eea485c5651013ca1bda073b86a0303d6c533ac"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall",
+      "content_type": "text/html",
+      "title": "3.5 Free Fall - University Physics Volume 1 | OpenStax",
+      "body_chars": 17327,
+      "error": null,
+      "body_sha256": "a2bbac4697253f505dd51198e1a1509a0fb72c999705835e9dda6276f13428b2"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/4-3-projectile-motion",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/4-3-projectile-motion",
+      "content_type": "text/html",
+      "title": "4.3 Projectile Motion - University Physics Volume 1 | OpenStax",
+      "body_chars": 28486,
+      "error": null,
+      "body_sha256": "1f858bc5c8b92b209f36ea232d8387a916ba970d3ab65c2eca406ad1ddbfc730"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/9-2-impulse-and-collisions",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/9-2-impulse-and-collisions",
+      "content_type": "text/html",
+      "title": "9.2 Impulse and Collisions - University Physics Volume 1 | OpenStax",
+      "body_chars": 30447,
+      "error": null,
+      "body_sha256": "834aad56ff98d2dadcf7eaa946073be9a141f1e65f43d115ddac5246adf6f0ff"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/12-3-stress-strain-and-elastic-modulus",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/12-3-stress-strain-and-elastic-modulus",
+      "content_type": "text/html",
+      "title": "12.3 Stress, Strain, and Elastic Modulus - University Physics Volume 1 | OpenStax",
+      "body_chars": 27520,
+      "error": null,
+      "body_sha256": "75483d2bd578c669691b76c59b78582ab30fa0aca7c0691208a2b41defca34ca"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/9-6-center-of-mass",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/9-6-center-of-mass",
+      "content_type": "text/html",
+      "title": "9.6 Center of Mass - University Physics Volume 1 | OpenStax",
+      "body_chars": 34089,
+      "error": null,
+      "body_sha256": "60b21da7d06e805153c1b6bde90290c390bb34a31405f57a34d188f3ec32dfa1"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/8-3-conservation-of-energy",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/8-3-conservation-of-energy",
+      "content_type": "text/html",
+      "title": "8.3 Conservation of Energy - University Physics Volume 1 | OpenStax",
+      "body_chars": 19373,
+      "error": null,
+      "body_sha256": "8fb777945b64abec05219bd048abed5f237cc7b85c7483953aa5330e87699139"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+      "content_type": "text/html",
+      "title": "6.2 Friction - University Physics Volume 1 | OpenStax",
+      "body_chars": 31699,
+      "error": null,
+      "body_sha256": "312e8b430c75376164dd1f939484976b032da93f4daba46871fc8d4ff19b4157"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/8-1-potential-energy-of-a-system",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/8-1-potential-energy-of-a-system",
+      "content_type": "text/html",
+      "title": "8.1 Potential Energy of a System - University Physics Volume 1 | OpenStax",
+      "body_chars": 25154,
+      "error": null,
+      "body_sha256": "65f423ae092c45736fff7ea593c1ca7f4cd3b88829b5d0a616123f637793eb14"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/16-20-structural-mechanics-fall-2002/",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/16-20-structural-mechanics-fall-2002/",
+      "content_type": "text/html",
+      "title": "Structural Mechanics | Aeronautics and Astronautics | MIT OpenCourseWare",
+      "body_chars": 2782,
+      "error": null,
+      "body_sha256": "53dd2dcbea2927b1dcaa11c942cbb2d8712e0ec5201728b4b9c6b78c4c276c9f"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/",
+      "content_type": "text/html",
+      "title": "Mechanics & Materials I | Mechanical Engineering | MIT OpenCourseWare",
+      "body_chars": 2982,
+      "error": null,
+      "body_sha256": "cf5651bbba6d14692cce65d4f372a1a3b9013f7cae44e01b707adec0ae459e1a"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/",
+      "content_type": "text/html",
+      "title": "Introduction to Heat Transfer | Mechanical Engineering | MIT OpenCourseWare",
+      "body_chars": 2505,
+      "error": null,
+      "body_sha256": "b778857b4e80346f64942734b0a1fa9d4ce939a1705700c8532565462e9a278a"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/1-4-heat-transfer-specific-heat-and-calorimetry",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-2/pages/1-4-heat-transfer-specific-heat-and-calorimetry",
+      "content_type": "text/html",
+      "title": "1.4 Heat Transfer, Specific Heat, and Calorimetry - University Physics Volume 2 | OpenStax",
+      "body_chars": 25214,
+      "error": null,
+      "body_sha256": "e959cb197662f9b7e9727ea4e5e4f8f71d0b4645feedef69bd9729fff1b939a6"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics",
+      "content_type": "text/html",
+      "title": "3.3 First Law of Thermodynamics - University Physics Volume 2 | OpenStax",
+      "body_chars": 20406,
+      "error": null,
+      "body_sha256": "9cc61a57431c1b75e9d3387dd1c9a9c60d67a5b6a285f22c042f7f9175cadb31"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas",
+      "content_type": "text/html",
+      "title": "3.6 Adiabatic Processes for an Ideal Gas - University Physics Volume 2 | OpenStax",
+      "body_chars": 11428,
+      "error": null,
+      "body_sha256": "e690c93440081f05d7232066fce46adc19d6890c6a07c47f3cf3cc32cb08debd"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "body_chars": 0,
+      "error": null,
+      "body_sha256": null
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+      "content_type": "text/html",
+      "title": "14.4 Archimedes’ Principle and Buoyancy - University Physics Volume 1 | OpenStax",
+      "body_chars": 12669,
+      "error": null,
+      "body_sha256": "0da5d37db399a646820ec1fb996432e28afd1dec9a6647d92d0ae11b17d0d037"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/10-2-properties-of-liquids",
+      "status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/10-2-properties-of-liquids",
+      "content_type": "text/html",
+      "title": "10.2 Properties of Liquids - Chemistry 2e | OpenStax",
+      "body_chars": 16141,
+      "error": null,
+      "body_sha256": "a671a00daee143c9ed8c27c14f3f7337508c42b14f2376d81daa94acf8f60baf"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/5-4-electric-field",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-2/pages/5-4-electric-field",
+      "content_type": "text/html",
+      "title": "5.4 Electric Field - University Physics Volume 2 | OpenStax",
+      "body_chars": 18971,
+      "error": null,
+      "body_sha256": "3308dc55c428442dc747dde97c85908940ebe9c21643e08b597e9f95db3099f7"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers",
+      "content_type": "text/html",
+      "title": "15.6 Transformers - University Physics Volume 2 | OpenStax",
+      "body_chars": 10865,
+      "error": null,
+      "body_sha256": "529fcae3988d48d501071dbf3bc69d867188c09083fd24c9413bc73dfe84a59b"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/15-3-rlc-series-circuits-with-ac",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-2/pages/15-3-rlc-series-circuits-with-ac",
+      "content_type": "text/html",
+      "title": "15.3 RLC Series Circuits with AC - University Physics Volume 2 | OpenStax",
+      "body_chars": 12157,
+      "error": null,
+      "body_sha256": "11f862188834bc7777c64f65eb227b32802fcf46f0073bf876e206a062c1ac09"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit",
+      "content_type": "text/html",
+      "title": "15.4 Power in an AC Circuit - University Physics Volume 2 | OpenStax",
+      "body_chars": 11852,
+      "error": null,
+      "body_sha256": "59d3bdecf83b156ff2352ffbdfa288f0ce57ff13f5f487b41353ec416213ec10"
+    },
+    {
+      "url": "https://www.epa.gov/environmental-geophysics/electromagnetic-signal-attenuation-skin-depth",
+      "status": 200,
+      "final_url": "https://www.epa.gov/environmental-geophysics/electromagnetic-signal-attenuation-skin-depth",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Electromagnetic Signal Attenuation (Skin Depth) | US EPA",
+      "body_chars": 2211,
+      "error": null,
+      "body_sha256": "a2616e27dc7ab6391454b958bbf5507dd9d2d7899c5ce2dab27c85ca498dbcdd"
+    },
+    {
+      "url": "https://www.ti.com/tool/CIRCUIT060022",
+      "status": 200,
+      "final_url": "https://www.ti.com/tool/CIRCUIT060022",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "CIRCUIT060022 Design tool | TI.com",
+      "body_chars": 1611,
+      "error": null,
+      "body_sha256": "19527859aacc7007cb04326fbb4e87f13d1d9682d58ab91f85b96f636cf031ee"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/",
+      "content_type": "text/html",
+      "title": "Circuits and Electronics | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+      "body_chars": 3539,
+      "error": null,
+      "body_sha256": "a921c43cf080b75e74f7ec1820619a2dfe0daaf62d97351bc584c2976ea236a4"
+    },
+    {
+      "url": "https://interactivetextbooks.tudelft.nl/tn2421/content/Chap1_Basics/Basics_2022_01Clean.html",
+      "status": null,
+      "error": "<urlopen error [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다>",
+      "body_sha256": null
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/3-2-mathematics-of-interference",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-3/pages/3-2-mathematics-of-interference",
+      "content_type": "text/html",
+      "title": "3.2 Mathematics of Interference - University Physics Volume 3 | OpenStax",
+      "body_chars": 10124,
+      "error": null,
+      "body_sha256": "dca978569b0ef725a1d52cfb7e6c40158efe49ecaa571dbeee3da883386de3c8"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/4-4-diffraction-gratings",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-3/pages/4-4-diffraction-gratings",
+      "content_type": "text/html",
+      "title": "4.4 Diffraction Gratings - University Physics Volume 3 | OpenStax",
+      "body_chars": 12040,
+      "error": null,
+      "body_sha256": "c72b237edfdd483d62015f0f0630cfef029a35c86b75e0582fb832b42385fb74"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity",
+      "content_type": "text/html",
+      "title": "17.3 Sound Intensity - University Physics Volume 1 | OpenStax",
+      "body_chars": 23375,
+      "error": null,
+      "body_sha256": "b7e3c7a5cefe8a999cddb5cc889407158caa0d5b53da7941af5473ab0ddb4ab5"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect",
+      "content_type": "text/html",
+      "title": "17.7 The Doppler Effect - University Physics Volume 1 | OpenStax",
+      "body_chars": 21516,
+      "error": null,
+      "body_sha256": "51cc7a1c14f1d37b6a003219dd8ebd27cfb1c95ee5de5b7bf5335dcb1e9c20a5"
+    },
+    {
+      "url": "https://goldbook.iupac.org/terms/view/P04524",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "body_sha256": null
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium",
+      "status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium",
+      "content_type": "text/html",
+      "title": "17.4 Potential, Free Energy, and Equilibrium - Chemistry 2e | OpenStax",
+      "body_chars": 14180,
+      "error": null,
+      "body_sha256": "9dce92d53ceda4a7f6212db37473fc8474b56b75d4b259a90d6f5908c507ca75"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay",
+      "content_type": "text/html",
+      "title": "10.3 Radioactive Decay - University Physics Volume 3 | OpenStax",
+      "body_chars": 16212,
+      "error": null,
+      "body_sha256": "3bb07eedf70a10fc7c3f7d4d174c5a897ed17dedf7d8cb52e4d930e3e989071c"
+    },
+    {
+      "url": "https://goldbook.iupac.org/terms/view/09024",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "body_sha256": null
+    },
+    {
+      "url": "https://galileo.phys.virginia.edu/classes/311/notes/fluids2/node7.html",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "body_sha256": null
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation",
+      "status": 200,
+      "final_url": "https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation",
+      "content_type": "text/html",
+      "title": "14.6 Bernoulli’s Equation - University Physics Volume 1 | OpenStax",
+      "body_chars": 18460,
+      "error": null,
+      "body_sha256": "9b8963652c90e8bc1f2cb8aba63d2c0162602a1a7b85c55438be00be046ff1a1"
+    },
+    {
+      "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-5-combined-standard-uncertainty",
+      "status": 200,
+      "final_url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-5-combined-standard-uncertainty",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "NIST TN 1297: 5. Combined Standard Uncertainty | NIST",
+      "body_chars": 6000,
+      "error": null,
+      "body_sha256": "2adaadc247b9a7719ab3d7d7c6d63def3f3b0859c731e3c969b8e1a307e1af3f"
+    },
+    {
+      "url": "https://keten-group.github.io/StructuralDynamics/singledof.html",
+      "status": 200,
+      "final_url": "https://keten-group.github.io/StructuralDynamics/singledof.html",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Structural Dynamics - 2  Free Vibrations of Single Degree of Freedom Systems",
+      "body_chars": 111769,
+      "error": null,
+      "body_sha256": "1fd5a4221ba0173ccbcf984c8d8a41fa70de2c73b0c604928d459661c162f9a3"
+    },
+    {
+      "url": "https://godot.io.esa.int/docs/api_reference/generated/generated/generated/godot.core.astro.hohmannTransferDeltaV.html",
+      "status": 200,
+      "final_url": "https://godot.io.esa.int/docs/api_reference/generated/generated/generated/godot.core.astro.hohmannTransferDeltaV.html",
+      "content_type": "text/html; charset=utf-8",
+      "title": "godot.core.astro.hohmannTransferDeltaV — GODOT 1.20.0 documentation",
+      "body_chars": 896,
+      "error": null,
+      "body_sha256": "ea41a1ca494f874747c72db935e4896c03aa785aec03b7987f71d29ed334d3e1"
+    },
+    {
+      "url": "https://www.isu.edu/physics/outreach/physics-class-demos/mechanics/springs-in-series-and-parallel/",
+      "status": 200,
+      "final_url": "https://www.isu.edu/physics/outreach/physics-class-demos/mechanics/springs-in-series-and-parallel/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Springs in Series and Parallel | Idaho State University",
+      "body_chars": 3594,
+      "error": null,
+      "body_sha256": "15a56303e1bbd33d3f83c13235bf36b29c524f4bb6a975e79dfb05d173ad024b"
+    },
+    {
+      "url": "https://mechanicsmap.psu.edu/websites/centroidtables/centroids2D/centroids2D.html",
+      "status": 200,
+      "final_url": "https://mechanicsmap.psu.edu/websites/centroidtables/centroids2D/centroids2D.html",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Mechanics Map - 2D Centroid and Moment of Inertia Table",
+      "body_chars": 1740,
+      "error": null,
+      "body_sha256": "e11abc9ed1ab1d3fa181e44605dbd4d3ba312ffca1c57b29f5d9c0fb63be78c3"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/1340543ced026dab5c8444a53fe92153_lec20.pdf",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/1340543ced026dab5c8444a53fe92153_lec20.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "body_chars": 0,
+      "error": null,
+      "body_sha256": null
+    },
+    {
+      "url": "https://etrl.mechanical.illinois.edu/pdf/ME420/ME420%20Complete%20Lecture%20Notes.pdf",
+      "status": 200,
+      "final_url": "https://etrl.mechanical.illinois.edu/pdf/ME420/ME420%20Complete%20Lecture%20Notes.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "body_chars": 0,
+      "error": null,
+      "body_sha256": null
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "body_chars": 0,
+      "error": null,
+      "body_sha256": null
+    },
+    {
+      "url": "https://research.me.udel.edu/advani/teaching/s98_me302_review.htm",
+      "status": 200,
+      "final_url": "https://research.me.udel.edu/advani/teaching/s98_me302_review.htm",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "HEAT TRANSFER REVIEW QUESTIONS",
+      "body_chars": 10665,
+      "error": null,
+      "body_sha256": "7a7220c6e6e02a3066c266cd82bf97884f0d4e1db04de4caa525ddfe3e3c4b62"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/3-185-transport-phenomena-in-materials-engineering-fall-2003/927ddb6b3dfc423de5570a0070614129_handout_htrans.pdf",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/3-185-transport-phenomena-in-materials-engineering-fall-2003/927ddb6b3dfc423de5570a0070614129_handout_htrans.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "body_chars": 0,
+      "error": null,
+      "body_sha256": null
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+      "status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+      "content_type": "text/html",
+      "title": "11.8 Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action - College Physics 2e | OpenStax",
+      "body_chars": 22684,
+      "error": null,
+      "body_sha256": "6f4d16310e0e281ee3aadd2a2278eae4a0ef9e17cbec583cd793e1fb8656ace3"
+    },
+    {
+      "url": "https://www.ti.com/lit/an/sboa271a/sboa271a.pdf",
+      "status": 200,
+      "final_url": "https://www.ti.com/lit/an/sboa271a/sboa271a.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "body_chars": 0,
+      "error": null,
+      "body_sha256": null
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/d4e136975654a01f7fc2c9b49196d376_6002_l18.pdf",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/d4e136975654a01f7fc2c9b49196d376_6002_l18.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "body_chars": 0,
+      "error": null,
+      "body_sha256": null
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/4c2d4e2527151fd840c3a725bae3d13a_MIT6_007S11_lec34.pdf",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/4c2d4e2527151fd840c3a725bae3d13a_MIT6_007S11_lec34.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "body_chars": 0,
+      "error": null,
+      "body_sha256": null
+    },
+    {
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-8",
+      "status": 200,
+      "final_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "NIST Guide to the SI, Chapter 8 | NIST",
+      "body_chars": 22890,
+      "error": null,
+      "body_sha256": "00edc1ba167b146d885c8a1f69926058a683fe99dcff4bd2c7c8cb0bd83f484f"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+      "status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+      "content_type": "text/html",
+      "title": "14.2 pH and pOH - Chemistry 2e | OpenStax",
+      "body_chars": 14181,
+      "error": null,
+      "body_sha256": "0c2340b980d54b0be4b11476ce1b255a2c86ec44583e8c23edfc795670b96587"
+    },
+    {
+      "url": "https://www.nist.gov/publications/avoid-common-pitfalls-when-using-henrys-law",
+      "status": 200,
+      "final_url": "https://www.nist.gov/publications/avoid-common-pitfalls-when-using-henrys-law",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Avoid Common Pitfalls when using Henry's Law | NIST",
+      "body_chars": 2101,
+      "error": null,
+      "body_sha256": "93b94c887acb098baab0f4906ea715b3d9e266b4e811ceb90ca9f38bf004d42f"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/12-6-motion-of-an-object-in-a-viscous-fluid",
+      "status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/12-6-motion-of-an-object-in-a-viscous-fluid",
+      "content_type": "text/html",
+      "title": "12.6 Motion of an Object in a Viscous Fluid - College Physics 2e | OpenStax",
+      "body_chars": 10701,
+      "error": null,
+      "body_sha256": "7dfbe6110a2f2467d6fd49d125b107678cb4923c1f030447fbb2942b1ed5b740"
+    },
+    {
+      "url": "https://farside.ph.utexas.edu/teaching/336L/Fluid/node55.html",
+      "status": 200,
+      "final_url": "https://farside.ph.utexas.edu/teaching/336L/Fluid/node55.html",
+      "content_type": "text/html",
+      "title": "Flow Through an Orifice",
+      "body_chars": 4180,
+      "error": null,
+      "body_sha256": "400ea451d8fdf09132c17faa6655790aa048d44bf8a6a91c63622d5d0081eaed"
+    },
+    {
+      "url": "https://ntrs.nasa.gov/citations/20170005173",
+      "status": 200,
+      "final_url": "https://ntrs.nasa.gov/citations/20170005173",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Extracting Damping Ratio from Dynamic Data and Numerical Solutions - NASA Technical Reports Server (NTRS)",
+      "body_chars": 2055,
+      "error": null,
+      "body_sha256": "4c01154750cb8bcdb1cac2b6806c945ab63d6d51bd93c4665f46e795fac56232"
+    }
+  ]
+}
